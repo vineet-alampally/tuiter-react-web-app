@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to Web Development, Fall 2022
+          Khoury College of Computer Sciences
         </p>
         <a
           className="App-link"
