@@ -1,109 +1,124 @@
-body{
-    background: black;
-    margin-left: 12px;
-    border-color: rgb(47, 51, 54);
+.wd-zero-right-border{
+    border-right: 0px transparent;
 }
-.wd-search {
-    border-radius: 40px;
-    background-color: darkgray;
-    border-style: solid;
-    padding-left: 30px;
-    height: 30px;
-    width: 50%;
+.wd-rounded-buttons{
+    border-radius: 20px;
+
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 60px;
     color: white;
-    border-color: rgb(47, 51, 54);
+    font-size: 40px;
+}
+
+.wd-gray-color{
+    color:gray;
+    font-size: 0.9em;
+}
+
+.wd-main-content-borders{
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}
+.list-group{
+    border-radius: 1em;
+}
+
+.list-group-item{
+    border: none;
+}
+
+body { background: black }
+
+.wd-list-group .list-group-item{
+    background-color: rgb(0,0,0,0.7);
+}
+
+.wd-nav-item{
+    color: darkgray;
+}
+.wd-selected-nav-item{
+    color: white;
+    font-weight: bold;
+}
+
+.wd-nav-bg-border{
+    border-bottom: 0;
+}
+
+.wd-nav-highlighted-border{
+    border-bottom: 2px solid #1DA1F2;
+    padding: 0px;
+}
+.wd-font-color{
+    color: lightgray;
+}
+
+.wd-search-bar-color{
+    background-color: #202327;
+    border-color: black;
+}
+
+.wd-foreground-text{
+    color: darkgray;
+}
+
+.wd-image-borders{
+    border-top: 1px solid rgb(47, 51, 54);;
+    border-bottom: 1px solid rgb(47, 51, 54);;
+}
+
+.wd-button-bg{
+    background-color: rgb(13,110,253);
+}
+
+.wd-font-white{
+    color: white;
+    font-weight: bold;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-color: white;
+}
+
+
+.wd-white-color{
+    font-weight: bold;
+    color:white;
+    font-size: 0.9em;
+}
+
+.right-sidebar{
+    background-color: #808080;
+}
+
+.wd-content-div {
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-footer-text{
+    font-size: 13px;
+    color: rgb(113, 118, 123);
+}
+
+.wd-footer{
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
     text-decoration: none;
-    padding: 16px;
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-}
-.wd-link{
-     color: rgb(29,161,242);
-     border-bottom:3px solid;
-}
-
-.wd-links-container{
-    margin-top: 20px;
-    border: 1px;
-    color: white;
-    margin-bottom: 40px;
-    font-weight:bold;
-}
-.wd-container-suggested-simple-posts{
-    /* border: 1px solid rgb(47, 51, 54); */
-    padding-left: 15px;   
-}
-.wd-container-suggested-author-posts{
-    /* border: 1px solid rgb(47, 51, 54); */
-    padding: 10px;   
-    display: flex;
-}
-.wd-topic{
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-}
-.wd-topic-author{
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    float: left;
-}
-.wd-title {
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    display: block;
-    padding-top: 5px;
-}
-
-.wd-tuits {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    display: block;
-    font-weight: normal;
-    padding-top: 5px;
-}
-
-::placeholder{
-    color: black;
-}
-.wd-simple-posts-div{
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-}
-.wd-topic-author-name{
-    font-weight: bold;
-    color:white;
-    font-size: 13px;
-    margin-right: 5px;
-}
-
-.wd-tuit-author-image-div{
-    width: 50%;
-}
-.wd-tuit-author-tuit-div{
-    width: 50%;
-}
-.wd-tuit-image{
-    float: right;
-    margin-right: 16px;
-    border-radius: 25px;
-}
-.wd-ellipsis{
-    align-items: center;
-}
-.wd-gear-icon{
-    font-size: 35px;
-    float: right;
-    color: rgb(29,161,242);
-
-    margin-right: 12px;
-    margin-bottom: 10px;
-}
-
-.wd-verified {
-    color: blue;
-    font-size: 15px;
 }
