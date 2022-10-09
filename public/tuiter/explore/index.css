@@ -1,0 +1,109 @@
+body{
+    background: black;
+    margin-left: 12px;
+    border-color: rgb(47, 51, 54);
+}
+.wd-search {
+    border-radius: 40px;
+    background-color: darkgray;
+    border-style: solid;
+    padding-left: 30px;
+    height: 30px;
+    width: 50%;
+    color: white;
+    border-color: rgb(47, 51, 54);
+}
+
+a{
+    text-decoration: none;
+    padding: 16px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-link{
+     color: rgb(29,161,242);
+     border-bottom:3px solid;
+}
+
+.wd-links-container{
+    margin-top: 20px;
+    border: 1px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight:bold;
+}
+.wd-container-suggested-simple-posts{
+    /* border: 1px solid rgb(47, 51, 54); */
+    padding-left: 15px;   
+}
+.wd-container-suggested-author-posts{
+    /* border: 1px solid rgb(47, 51, 54); */
+    padding: 10px;   
+    display: flex;
+}
+.wd-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-topic-author{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    float: left;
+}
+.wd-title {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding-top: 5px;
+}
+
+.wd-tuits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    display: block;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+::placeholder{
+    color: black;
+}
+.wd-simple-posts-div{
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+}
+.wd-topic-author-name{
+    font-weight: bold;
+    color:white;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.wd-tuit-author-image-div{
+    width: 50%;
+}
+.wd-tuit-author-tuit-div{
+    width: 50%;
+}
+.wd-tuit-image{
+    float: right;
+    margin-right: 16px;
+    border-radius: 25px;
+}
+.wd-ellipsis{
+    align-items: center;
+}
+.wd-gear-icon{
+    font-size: 35px;
+    float: right;
+    color: rgb(29,161,242);
+
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.wd-verified {
+    color: blue;
+    font-size: 15px;
+}
