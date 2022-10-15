@@ -6,7 +6,7 @@ const ExploreComponent = () => {
                 <div class="col-xxl-11 col-xl-11 col-lg-11 col-md-11 col-sm-11 ps-0">
                     <div class="input-group">
                         <div class="input-group-text wd-rounded-buttons wd-zero-right-border wd-gray-color"><span style="border-right: 0px solid transparent"><i class="fa-solid fa-magnifying-glass " style="color: black"></i></span></div>
-                        <input type="text" class="form-control wd-rounded-buttons wd-search-bar-color" placeholder="Search Twitter" id="twitterSearch">
+                        <input type="text" class="form-control wd-rounded-buttons wd-search-bar-color" placeholder="Search Tuiter" id="twitterSearch">
                     </div>
                 </div>
                 <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
