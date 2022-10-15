@@ -95,3 +95,8 @@ a{
 .wd-verified{
     color: lightgray;
 }
+
+.wd-button-bg:hover{
+    background-color: rgb(114, 145, 196);
+    border: none;
+}

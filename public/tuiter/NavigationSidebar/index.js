@@ -71,7 +71,7 @@ const NavigationSidebar = (active) => {
                 </div>
             </div>
             <div class="row ps-0 pr-2">
-                <div class="btn btn-primary col-xxl-12 col-xl-12  mt-2  wd-button-bg wd-rounded-buttons" style="width: 95%">Tweet</div>
+                <div class="btn btn-primary col-xxl-12 col-xl-12  mt-2  wd-button-bg wd-rounded-buttons" style="width: 95%">Tuit</div>
             </div>
     `);
 }
