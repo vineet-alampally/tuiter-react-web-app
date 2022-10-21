@@ -1,72 +1,65 @@
 console.log('Hello World!');
-
 console.log('Variables and Constants');
 global1 = 10;
-console.log(global1);
 var functionScoped = 2;
-console.log(functionScoped);
 let blockScoped = 5;
-console.log(blockScoped);
 const constant1 = global1
                   + functionScoped
                   - blockScoped;
+console.log(global1);
+console.log(functionScoped);
+console.log(blockScoped);
 console.log(constant1);
-
 console.log('Variable types');
 let numberVariable = 123;
-console.log(numberVariable);
 let floatingPointNumber = 234.345;
-console.log(floatingPointNumber);
 let stringVariable = 'Hello World!';
-console.log(stringVariable);
 let booleanVariable = true;
-console.log(booleanVariable);
 let isNumber = typeof numberVariable;
-console.log(isNumber);
 let isString = typeof stringVariable;
-console.log(isString);
 let isBoolean = typeof booleanVariable;
+console.log(numberVariable);
+console.log(floatingPointNumber);
+console.log(stringVariable);
+console.log(booleanVariable);
+console.log(isNumber);
+console.log(isString);
 console.log(isBoolean);
-
 console.log('Boolean Variables');
 let true1 = true;
-console.log(true1);
 let false1 = false;
-console.log(false1);
 let false2 = true1 && false1;
-console.log(false2);
 let true2 = true1 || false1;
-console.log(true2);
 let true3 = !false2;
-console.log(true3);
 let true4 = numberVariable === 123;
-console.log(true4);
 let true5 = floatingPointNumber !== 321.432;
-console.log(true5);
 let false3 = numberVariable < 100;
-console.log(false3);
 let sortaTrue = '1' == 1
-console.log(sortaTrue);
 let notTrue   = '1' === 1
+console.log(true1);
+console.log(false1);
+console.log(false2);
+console.log(true2);
+console.log(true3);
+console.log(true4);
+console.log(true5);
+console.log(false3);
+console.log(sortaTrue);
 console.log(notTrue);
-
 console.log('If else');
 if(true1) {
-    console.log(true);
+   console.log(true);
 }
 
 if(!false1) {
-    console.log('!false1');
+   console.log('!false1');
 } else {
-    console.log('false1');
+   console.log('false1');
 }
-
-
 console.log('Ternary conditional operator');
 const loggedIn = true;
-console.log(loggedIn);
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
-console.log(greeting)
+console.log(greeting);
 
 console.log('Legacy ES5 function')
 function add (a, b) {
@@ -77,17 +70,17 @@ console.log(twoPlusFour);
 
 console.log('New ES6 functions')
 const subtract = (a, b) => {
-    return a - b;
+   return a - b;
 }
 const threeMinusOne = subtract(3, 1);
 console.log(threeMinusOne);
 
-console.log("Implied return");
+console.log("Implied Return")
 const multiply = (a, b) => a * b;
 const fourTimesFive = multiply(4, 5);
 console.log(fourTimesFive);
 
-console.log("Parenthesis and parameters")
+console.log("Paranthesis and parameters")
 const square = a => a * a;
 const plusOne = a => a + 1;
 const twoSquared = square(2);
@@ -95,74 +88,73 @@ const threePlusOne = plusOne(3);
 console.log(twoSquared);
 console.log(threePlusOne);
 
-console.log("Arrays");
 let numberArray1 = [1, 2, 3, 4, 5];
-console.log(numberArray1);
 let stringArray1 = ['string1', 'string2'];
-console.log(stringArray1);
 let variableArray1 = [
-    functionScoped,
-    blockScoped,
-    constant1,
-    numberArray1,
-    stringArray1
+   functionScoped,
+   blockScoped,
+   constant1,
+   numberArray1,
+   stringArray1
 ];
-console.log(variableArray1);
 
-console.log('Array index and length');
+console.log('Arrays')
+console.log(numberArray1)
+console.log(stringArray1)
+console.log(variableArray1)
+
+console.log("Array index and length")
 const length1 = numberArray1.length;
-console.log(length1);
 const index1 = numberArray1.indexOf(3);
-console.log(index1);
+console.log(length1)
+console.log(index1)
 
-console.log('Add and remove data to arrays');
+console.log("Add and remove data to arrays")
 numberArray1.push(6);
 stringArray1.push('string3');
-
-// remove 1 item starting on 3rd spot
 numberArray1.splice(2, 1);
 stringArray1.splice(1, 1);
 console.log(numberArray1);
 console.log(stringArray1);
 
-console.log("For loops");
+console.log("for loops")
 for (let i=0; i<stringArray1.length; i++) {
     const string1 = stringArray1[i];
     console.log(string1);
-}
-
-console.log('Map function');
+ }
+ 
+console.log('Map function')
 const squares = numberArray1.map(square);
-console.log(squares);
 const cubes = numberArray1.map(a => a * a * a);
-console.log(cubes);
+console.log(squares)
+console.log(cubes)
 
-console.log('Find function');
+console.log("Find function")
 const four = numberArray1.find(a => a === 4);
-console.log('four');
 const string3 = stringArray1.find(a => a === 'string3');
-console.log(string3);
+console.log(four)
+console.log(string3)
 
-console.log('Find index');
+console.log("Find index")
 const fourIndex = numberArray1
-    .findIndex(a => a === 4);
-console.log(fourIndex);
+   .findIndex(a => a === 4);
 const string3Index = stringArray1
-    .findIndex(a => a === 'string3');
-console.log(string3Index);
+   .findIndex(a => a === 'string3');
+console.log(fourIndex)
+console.log(string3Index)
 
-console.log("Filter function");
+console.log("Filter function")
 const numbersGreaterThan2 = numberArray1
-    .filter(a => a > 2);
-console.log(numbersGreaterThan2);
+   .filter(a => a > 2);
 const evenNumbers = numberArray1
-    .filter(a => a % 2 === 0);
-console.log(evenNumbers);
+   .filter(a => a % 2 === 0);
 const oddNumbers = numberArray1
-    .filter(a => a % 2 !== 0);
-console.log(oddNumbers);
+   .filter(a => a % 2 !== 0);
+console.log(numbersGreaterThan2)
+console.log(evenNumbers)
+console.log(oddNumbers)
 
-console.log("Template strings");
+console.log("Template Strings")
 const five = 2 + 3;
 const result1 = "2 + 3 = " + five;
 console.log(result1);
@@ -176,7 +168,7 @@ console.log(greeting1);
 
 LoggedIn = false;
 const greeting2 = `Logged in: ${LoggedIn ? "Yes" : "No"}`;
-console.log(greeting2);
+console.log(greeting2)
 
 const init = () => {
     console.log('Hello world from jQuery');
@@ -207,52 +199,49 @@ const init = () => {
     const newLineItem = $("<li>Line item 1</li>");
     const anotherLineItem = $("<li>Line item 2</li>");
     const ul = $("#append-new-elements");
-    ul.append(newLineItem);
-    ul.append(anotherLineItem);
-    const removeLi =$("#remove-this");
-    const emptyUl = $("#empty-this");
-    removeLi.remove();
-    emptyUl.empty();
-    const changeThisText =
-        $("#change-this-text");
-    const changeThisHtml =
-        $("#change-this-html");
-    changeThisText.html('New text');
-    changeThisHtml.html(`
+ul.append(newLineItem);
+ul.append(anotherLineItem);
+const removeLi =$("#remove-this");
+const emptyUl = $("#empty-this");
+removeLi.remove();
+emptyUl.empty();
+const changeThisText =
+   $("#change-this-text");
+const changeThisHtml =
+   $("#change-this-html");
+changeThisText.html('New text');
+changeThisHtml.html(`
    <li>Line item A</li>
    <li>Line item B</li>
    <li>Line item C</li>
 `);
-    const child2 = $("#child-2");
-    const parent1 =
-        child2.parents("#parent");
-    parent1
-        .css('background-color', 'red')
-        .css('color', 'white');
+const child2 = $("#child-2");
+const parent1 =
+   child2.parents("#parent");
+parent1
+   .css('background-color', 'red')
+   .css('color', 'white');
 
-    const parent = $("#parent");
-    const child = parent.find("#child-2");
-    child.css('background-color', 'blue')
-    const handleClick =
-        () => console.log('Handle click');
-    const clickable = $('.clickable');
-    clickable.click(handleClick);
-    let hideBtn, showBtn, hideShowHeader;
-    hideBtn = $('#hide');
-    showBtn = $('#show');
-    hideShowHeader = $('#hide-show');
-    const hideHandler = () => {
-        hideShowHeader.hide();
-    }
-    const showHandler = () => {
-        hideShowHeader.show();
-    }
-    hideBtn.click(hideHandler);
-    showBtn.click(showHandler);
+const parent = $("#parent");
+const child = parent.find("#child-2");
+child.css('background-color', 'blue')
+const handleClick =
+   () => console.log('Handle click');
+const clickable = $('.clickable');
+clickable.click(handleClick);
+let hideBtn, showBtn, hideShowHeader;
+hideBtn = $('#hide');
+showBtn = $('#show');
+hideShowHeader = $('#hide-show');
+const hideHandler = () => {
+   hideShowHeader.hide();
 }
-$(init);
-
-
-
+const showHandler = () => {
+   hideShowHeader.show();
+}
+hideBtn.click(hideHandler);
+showBtn.click(showHandler);
+ }
+ $(init);
 
 

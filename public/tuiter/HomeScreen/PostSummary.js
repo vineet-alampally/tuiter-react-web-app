@@ -8,7 +8,7 @@ const PostSummary = (posts) =>{
                         </div>
                         <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 p-0 post-about">
                             <span class="wd-font-color">${posts.username}</span>
-                            <i class="fas fa-check-circle wd-verified"></i>
+                            <i class="fas fa-check-circle"></i>
                             <span class="wd-gray-color">${posts.handle}&nbsp; -  ${posts.timeframe}</span><br>
                             <span class="wd-font-color">${posts.content}</span>
                         </div>

@@ -25,13 +25,13 @@
 
 body { background-color: black }
 
-.wd-list-group .list-group-item{
+/* .wd-list-group .list-group-item{
     background-color: #343a40;
-}
+} */
 
-.wd-post-list-group .list-group-item{
+/* .wd-post-list-group .list-group-item{
     background-color: black;
-}
+} */
 
 .wd-card-bg{
     background-color: black;
@@ -66,7 +66,7 @@ body { background-color: black }
     border-bottom: 1px solid lightgray;
 }
 
-.wd-button-bg:hover{
+.wd-button-bg:hover, .wd-button-bg{
     background-color: rgb(114, 145, 196);
     border: none;
 }
@@ -88,6 +88,7 @@ body { background-color: black }
 
 .nav-item.active{
     background-color: rgb(114, 145, 196);
+    color: white;
 }
 .nav-link:hover{
     border: none;
@@ -112,7 +113,4 @@ a{
 
 .post-about{
     margin-left: -30px;
-}
-.wd-verified{
-    color: lightgray;
 }

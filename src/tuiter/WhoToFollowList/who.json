@@ -1,0 +1,22 @@
+[
+  {
+    "picture": "java_icon.png",
+    "userName": "Java",
+    "handle": "Java"
+  },
+  {
+    "picture": "relativity_space.webp",
+    "userName": "Relativity Space",
+    "handle": "relativityspace"
+  },
+  {
+    "picture": "nasa.jpeg",
+    "userName": "NASA",
+    "handle": "NASA"
+  },
+  {
+    "picture": "tesla.png",
+    "userName": "Tesla",
+    "handle": "Tesla"
+  }
+]

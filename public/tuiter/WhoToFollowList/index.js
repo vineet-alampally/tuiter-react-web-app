@@ -5,7 +5,7 @@ const WhoToFollowList = () => {
             <div class="list-group wd-list-group">
                 <div class="list-group-item">
                     <div class="row">
-                        <span class="wd-font-white">Who to follow</span>
+                        <span class="wd-font-white follow-heading">Who to follow</span>
                     </div>
                 </div>
                     ${
