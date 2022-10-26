@@ -15,6 +15,28 @@ const PostSummaryItem = ({post}) => {
                     </div>
                 </div>
             </div>
+            <div className="row mt-3">
+                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                    <i className='fa fa-regular fa-comment wd-gray-color'></i>
+                    <span className='ms-1 wd-gray-color'>{post.replies}</span>
+                </div>
+                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                    <i className='fa fa-solid fa-retweet wd-gray-color'></i>
+                    <span className='ms-1 wd-gray-color'>{post.retuits}</span>
+                </div>
+                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                    {post.liked ? (
+                        <i className='fa fa-heart wd-red-color'></i>
+                    ):(
+                    <i className='fa fa-regular fa-heart wd-gray-color'></i>
+                    )}
+                    <span className='ms-1 wd-gray-color'>{post.likes}</span>
+                </div>
+                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                    <i className="fa-light fa-share-nodes wd-gray-color"></i>
+
+                </div>
+            </div>
         </div>
     );
 }

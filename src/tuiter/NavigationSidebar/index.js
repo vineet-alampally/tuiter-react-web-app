@@ -19,15 +19,6 @@ const NavigationSidebar = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className="list-group-item">
-                        <Link to="/">
-                            <div className="row">
-                                <i className="fa fa-home wd-font-color col-xxl-2 col-xl-2"></i>
-                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
-                                     style={{"bottom": "3px"}}><span className="wd-font-color">Labs</span></div>
-                            </div>
-                        </Link>
-                    </div>
                     <div className={`list-group-item ${active === 'home' ? 'active' : ''}`}>
                         <Link to="/tuiter/home">
                             <div className="row">
@@ -43,6 +34,16 @@ const NavigationSidebar = () => {
                                 <i className="fa fa-hashtag col-xxl-2 col-xl-2  wd-font-color"></i>
                                 <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
                                      style={{"bottom": "3px"}}><span className="wd-font-color">Explore</span></div>
+                            </div>
+                        </Link>
+                    </div>
+                    <div className="list-group-item">
+                        <Link to="/">
+                            <div className="row">
+
+                                <i className="fa-solid fa-star-of-life col-xxl-2 col-xl-2"></i>
+                                <div className="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1"
+                                     style={{"bottom": "3px"}}><span className="wd-font-color">Labs</span></div>
                             </div>
                         </Link>
                     </div>

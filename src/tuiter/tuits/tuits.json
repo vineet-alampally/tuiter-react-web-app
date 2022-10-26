@@ -1,0 +1,60 @@
+[
+  {
+    "_id" : 1,
+    "topic": "Web Development",
+    "userName": "ReactJS",
+    "time": "2h",
+    "tuit": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.",
+    "image": "react_js.png",
+    "liked": true,
+    "replies": 140,
+    "retuits" : 500,
+    "likes" : 344,
+    "handle" : "@elonmusk",
+    "stats": {
+      "liked" : true,
+      "replies" : 144,
+      "likes" : 433,
+      "retuits" : 36
+    }
+  },
+  {
+    "_id" : 2,
+    "topic": "Web Development",
+    "userName": "JavaScript",
+    "time": "1d",
+    "tuit": "JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.",
+    "image": "javascript.png",
+    "liked": false,
+    "replies": 140,
+    "retuits" : 500,
+    "likes" : 344,
+    "handle" : "@elonmusk",
+    "stats": {
+      "liked" : false,
+      "replies" : 144,
+      "likes" : 433,
+      "retuits" : 36
+    }
+  },
+  {
+    "_id" : 3,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "tuit": "Tesla, Inc. (/ˈtɛslə/ TESS-lə or /ˈtɛzlə/ TEZ-lə[b]) is an American multinational automotive and clean energy company headquartered in Austin, Texas. Tesla designs and manufactures electric vehicles (electric cars and trucks), battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services. ",
+    "time": "4d",
+    "image": "tesla.png",
+    "liked": true,
+    "replies": 140,
+    "retuits" : 500,
+    "likes" : 344,
+    "handle" : "@elonmusk",
+    "tuit" : "",
+    "stats": {
+      "liked" : true,
+      "replies" : 144,
+      "likes" : 433,
+      "retuits" : 36
+    }
+  }
+]

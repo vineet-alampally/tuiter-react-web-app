@@ -19,6 +19,10 @@
     color:gray;
 }
 
+.wd-red-color{
+    color:red;
+}
+
 .wd-rounded-images{
     border-radius: 50%;
 }
@@ -30,7 +34,7 @@ body { background: black }
 } */
 
 .wd-post-list-group .list-group-item{
-    border: 1px solid #343a40;
+    border: 1px solid lightgray;
 }
 
 .wd-card-bg{
