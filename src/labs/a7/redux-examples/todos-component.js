@@ -5,28 +5,27 @@ import {addTodo, deleteTodo, todoDoneToggle}
 const Todos = () => {
     const todos
         = useSelector(state => state.todos);
-const [todo, setTodo] = useState({do: ''});
-const dispatch = useDispatch();
-const toggleTodoDone = (todo) => {
+    const [todo, setTodo] = useState({do: ''});
+    const dispatch = useDispatch();
+    const toggleTodoDone = (todo) => {
         dispatch(todoDoneToggle(todo))
     }
-const deleteTodoClickHandler = (index) => {
+
+    const deleteTodoClickHandler = (index) => {
         dispatch(deleteTodo(index))
     }
-const createTodoClickHandler = () => {
+
+    const createTodoClickHandler = () => {
         dispatch(addTodo(todo))
     }
 
-
-
-const todoChangeHandler = (event) => {
+    const todoChangeHandler = (event) => {
         const doValue = event.target.value;
         const newTodo = {
             do: doValue
         };
         setTodo(newTodo);
     }
-
 
     return(
         <>
@@ -43,7 +42,7 @@ const todoChangeHandler = (event) => {
                         className="form-control w-75"/>
                 </li>
                 {
-                    todos.map((todo, index) =>
+                    todos.map((todo,index) =>
                                   <li className="list-group-item">
                                       <button onClick={() =>
                                           deleteTodoClickHandler(index)}
@@ -56,7 +55,8 @@ const todoChangeHandler = (event) => {
                                              onChange={() =>
                                                  toggleTodoDone(todo)}
                                              className="me-2"/>
-                                      {todo.done}
+
+                                      {todo.do}
                                   </li>
                     )
                 }

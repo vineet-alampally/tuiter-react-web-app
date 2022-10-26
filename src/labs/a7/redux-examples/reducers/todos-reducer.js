@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialTodos = [
     {
@@ -33,9 +33,12 @@ const todosSlice = createSlice({
                                                                        todo._id === action.payload)
                                            todo.done = !todo.done
                                        }
+
                                    }
+
 
                                });
 
-export const {addTodo, deleteTodo, todoDoneToggle} = todosSlice.actions
+export const {addTodo, deleteTodo,
+    todoDoneToggle} = todosSlice.actions
 export default todosSlice.reducer
