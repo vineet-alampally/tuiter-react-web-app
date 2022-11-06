@@ -27,7 +27,7 @@ const Profile = () => {
     return (
         <>
             <div className="row">
-                <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                <div className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
                     <IconButton children={<ArrowBackIcon/>} style={{"color": "black"}}/>
                 </div>
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10">
@@ -40,12 +40,12 @@ const Profile = () => {
                 </div>
             </div>
             <div className="row">
-                <img src={'inspiration.jpg'} alt="..." className="img-fluid"
+                <img src={process.env.PUBLIC_URL + profile.bannerPicture} alt="..." className="img-fluid"
                      width="100%" height="200px"/>
             </div>
             <div className="row">
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10">
-                    <img src={process.env.PUBLIC_URL + '/images/Starship.webp'} alt="..."
+                    <img src={process.env.PUBLIC_URL + profile.profilePicture} alt="..."
                          className="wd-rounded-images position-relative" height="100px"
                          width="100px" style={{"bottom": "1rem"}}/>
                 </div>
