@@ -11,8 +11,6 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-
-        debugger;
         dispatch(createTuit(newTuit));
     }
     return (
