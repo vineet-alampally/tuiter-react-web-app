@@ -29,7 +29,9 @@ const EditProfile = () => {
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 mt-1">
                     <Link to="/tuiter/profile">
                         <div className="btn wd-rounded-buttons"
-                             style={{"border": "1px solid gray", "borderRadius" : "50px"}} onClick={() => {
+                             style={{"border": "1px solid gray",
+                                 "borderRadius" : "50px",
+                                "fontWeight" : "bold"}} onClick={() => {
 
                             saveClickHandler();
                         }}>Save
