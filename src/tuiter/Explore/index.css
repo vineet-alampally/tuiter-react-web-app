@@ -112,3 +112,11 @@ a{
 a{
     text-decoration: none;
 }
+
+.wd-edit-profile{
+    width: 120px;
+}
+
+.wd-rounded-buttons-edit-profile{
+    border-radius: 60px;
+}

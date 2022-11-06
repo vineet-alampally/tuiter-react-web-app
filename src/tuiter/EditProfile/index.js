@@ -22,14 +22,15 @@ const EditProfile = () => {
                     <Link to="/tuiter/profile"><IconButton children={<CloseIcon/>}
                                                            style={{"color": "black"}}/></Link>
                 </div>
-                <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                <div className="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9">
                     <span className="wd-font-color mt-2"
                           style={{"fontSize": "1.5rem", "font-family": "bold"}}>Edit Profile</span>
                 </div>
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 mt-1">
                     <Link to="/tuiter/profile">
                         <div className="btn wd-rounded-buttons"
-                             style={{"background": "black", "color": "white"}} onClick={() => {
+                             style={{"border": "1px solid gray", "borderRadius" : "50px"}} onClick={() => {
+
                             saveClickHandler();
                         }}>Save
                         </div>
