@@ -43,7 +43,7 @@ const EditProfile = () => {
                 <img src={process.env.PUBLIC_URL + '/images/inspiration.jpg'} className="img-fluid" alt="..."
                      width="100%" height="200px"/>
             </div>
-            <img src={process.env.PUBLIC_URL + '/images/Starship.webp'} alt="..."
+            <img src={process.env.PUBLIC_URL + '/images/vineet.jpg'} alt="..."
                  className="wd-rounded-images position-relative" height="100px" width="100px"
                  style={{"bottom": "1rem"}}/>
             <form>
