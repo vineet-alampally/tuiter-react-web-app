@@ -1,10 +1,10 @@
 import {useDispatch} from "react-redux";
 import parse from 'html-react-parser';
 import TuitStats from './tuitstats.js';
-import {deleteTuit} from './tuits-reducer';
+import {deleteTuit} from '../reducers/tuits-reducer';
 
 
-const TuitListItem = ({posts: tuit}) =>{
+const TuitListItem = ({tuit}) =>{
     const dispatch = useDispatch();
 
     const deleteTuitHandler = (id) => {

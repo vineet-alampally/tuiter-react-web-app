@@ -1,0 +1,14 @@
+{
+  "_id": 12312,
+  "firstName": "Vineet",
+  "lastName": "Alampally",
+  "handle": "@vineetalampally",
+  "profilePicture": "/images/inspiration4.jpg",
+  "bannerPicture": "/images/spidermancover.jpg",
+  "bio": "Inspired by the way how technologies are solving real world problems, continuously motivated to learn sophisticated technologies and apply them to solve real world problems. Interested in Software development,Game development, Machine Learning, Android application development,Web development.",
+  "location": "Boston, MA",
+  "dateOfBirth": "10/22/1995",
+  "dateJoined": "11/2017",
+  "followingCount": 924,
+  "followersCount": 946
+}

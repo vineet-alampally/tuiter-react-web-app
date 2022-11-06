@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import tuits from './tuits.json';
+import tuits from '../data/tuits.json';
 
 const currentUser = {
-    "userName": "React JS",
-    "handle": "@reactjs",
+    "userName": "Vineet Alampally",
+    "handle": "@vineetalampally",
     "image": "react_js.png",
 };
 

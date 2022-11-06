@@ -3,7 +3,7 @@ const WhoToFollowListItem = ({who}) => {
             <div className="list-group-item">
                 <div className="row">
                 <div className="col-xxl-2 col-xl-2 col-lg-2 px-0">
-                    <img src={who.picture}  alt="img" className="img-fluid wd-rounded-images" />
+                    <img src={process.env.PUBLIC_URL + who.picture}  alt="img" className="img-fluid wd-rounded-images" />
                 </div>
                 <div className="col-xxl-7 col-xl-6 col-lg-5">
                     <span className="font-weight-bold wd-font-white">{who.userName}</span>&nbsp;
