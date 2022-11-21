@@ -43,7 +43,7 @@ const ExploreComponent = () => {
                 <img src={process.env.PUBLIC_URL + '/images/Starship.webp'} className="img-fluid wd-image-borders col px-0 " alt="StarShip page"/>
             </div>
             <span className="position-relative wd-overlay-name">SpaceX's Starship</span>
-            <PostSummaryList path="/tuiter/Explore"/>
+            <PostSummaryList path="/tuiter/Explore/"/>
         </>
     );
 }

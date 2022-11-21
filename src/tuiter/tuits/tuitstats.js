@@ -1,5 +1,27 @@
+import {useDispatch } from "react-redux";
+import {updateTuitThunk}
+    from "../../services/tuits-thunks";
+import { useState } from "react";
 
 const TuitStats = ({stats}) => {
+    const [isActive, setIsActive] = useState(stats.liked);
+    const dispatch = useDispatch();
+    const likeClickHandler = () => {
+        let x = 1;
+        if(!isActive) {
+            setIsActive(true);
+
+        } else {
+            setIsActive(false);
+            x = -1;
+        }
+
+
+        dispatch(updateTuitThunk({
+                                     ...stats,
+                                     likes: stats.likes + x
+                                 }));
+    }
 
     return (<div className="row mt-2 ms-5">
         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
@@ -11,8 +33,9 @@ const TuitStats = ({stats}) => {
             <span className='ms-1 wd-gray-color'>{stats.retuits}</span>
         </div>
         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-            {stats.liked ? (<i className='fa fa-regular fa-heart  wd-gray-color'></i>)
-                         : (<i className='fa fa-sloid fa-heart  wd-red-color'></i>)}
+            <i onClick={likeClickHandler}
+               className='fa fa-heart'
+               style={{"color": `${isActive ? "red" : "gray"}`}}></i>
             <span className='ms-1 wd-gray-color'>{stats.likes}</span>
         </div>
         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">

@@ -9,14 +9,14 @@ import EditProfileComponent from "./EditProfile/index";
 import whoReducer
     from "./reducers/who-reducer";
 import profileReducer from "./reducers/profile-reducer";
-import { configureStore }
+import {configureStore}
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import tuitsReducer from "./reducers/tuits-reducer";
 
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer,
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer,
             profile: profileReducer
     }});
 
