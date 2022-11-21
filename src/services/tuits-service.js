@@ -1,6 +1,5 @@
 import axios from 'axios';
-//const API_BASE = 'https://tuiter-node-server-app-vin.herokuapp.com/api';
-const API_BASE = 'http://localhost:4000/api';
+const API_BASE = 'https://tuiter-node-server-app-vin.herokuapp.com/api';
 const TUITS_API = `${API_BASE}/tuits`;
 
 
