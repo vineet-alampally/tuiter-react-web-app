@@ -17,7 +17,8 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="react_js.png" alt="img" width={60}/>
+                <img src={process.env.PUBLIC_URL + "/images/vineet1.jpg"} class="wd-rounded-images"
+                     alt="img" width={60}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
